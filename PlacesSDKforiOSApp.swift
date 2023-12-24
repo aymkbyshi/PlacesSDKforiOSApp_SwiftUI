@@ -23,7 +23,7 @@ struct PlacesSDKforiOSApp: App {
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         // Google PlacesのAPIキーを設定
-        GMSPlacesClient.provideAPIKey("AIzaSyBgXhxvpXmdzSvfURqzOty4QM1tNmUuPyU")
+        GMSPlacesClient.provideAPIKey("")
         return true
     }
 }
